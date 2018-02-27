@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/AlexeyRossosh/Desktop/CGAAF/CGAAF/CGAAF/MainScreen.storyboard">
+   </FileRef>
+   <FileRef
       location = "group:CGAAF.xcodeproj">
    </FileRef>
    <FileRef

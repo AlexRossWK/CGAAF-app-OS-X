@@ -15,10 +15,15 @@
 		AF86C8A62035B24C00AF0B47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86C8A52035B24C00AF0B47 /* AppDelegate.swift */; };
 		AF86C8A82035B24C00AF0B47 /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86C8A72035B24C00AF0B47 /* MainScreenVC.swift */; };
 		AF86C8AA2035B24C00AF0B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF86C8A92035B24C00AF0B47 /* Assets.xcassets */; };
-		AF86C8AD2035B24C00AF0B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF86C8AB2035B24C00AF0B47 /* Main.storyboard */; };
+		AF86C8AD2035B24C00AF0B47 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF86C8AB2035B24C00AF0B47 /* LoginScreen.storyboard */; };
 		AFB7428C203C5D3D0010FF08 /* CurrentPortfolioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB7428B203C5D3D0010FF08 /* CurrentPortfolioViewModel.swift */; };
 		AFB7428F203C5FF20010FF08 /* RecomendedPortfolioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB7428E203C5FF20010FF08 /* RecomendedPortfolioViewModel.swift */; };
 		AFB74291203D74710010FF08 /* LineChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB74290203D74710010FF08 /* LineChartViewModel.swift */; };
+		AFB74294203EC2AE0010FF08 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB74293203EC2AE0010FF08 /* LogInVC.swift */; };
+		AFB74296203ECAB40010FF08 /* MainScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB74295203EC5240010FF08 /* MainScreen.storyboard */; };
+		AFB74298203EDA060010FF08 /* ContuctUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB74297203EDA060010FF08 /* ContuctUsVC.swift */; };
+		AFD104812045587D00562707 /* SummaryAndClientDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD104802045587D00562707 /* SummaryAndClientDetailsViewModel.swift */; };
+		AFD104832045635700562707 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD104822045635700562707 /* SettingsVC.swift */; };
 		C9F723D1AA7FC12ADB05BAFA /* Pods_CGAAF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318CB6B0227FC93C40D98CA4 /* Pods_CGAAF.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,12 +40,17 @@
 		AF86C8A52035B24C00AF0B47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF86C8A72035B24C00AF0B47 /* MainScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenVC.swift; sourceTree = "<group>"; };
 		AF86C8A92035B24C00AF0B47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AF86C8AC2035B24C00AF0B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF86C8AC2035B24C00AF0B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginScreen.storyboard; sourceTree = "<group>"; };
 		AF86C8AE2035B24C00AF0B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF86C8AF2035B24C00AF0B47 /* CGAAF.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CGAAF.entitlements; sourceTree = "<group>"; };
 		AFB7428B203C5D3D0010FF08 /* CurrentPortfolioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPortfolioViewModel.swift; sourceTree = "<group>"; };
 		AFB7428E203C5FF20010FF08 /* RecomendedPortfolioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendedPortfolioViewModel.swift; sourceTree = "<group>"; };
 		AFB74290203D74710010FF08 /* LineChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewModel.swift; sourceTree = "<group>"; };
+		AFB74293203EC2AE0010FF08 /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		AFB74295203EC5240010FF08 /* MainScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = MainScreen.storyboard; path = /Users/AlexeyRossosh/Desktop/CGAAF/CGAAF/CGAAF/MainScreen.storyboard; sourceTree = "<absolute>"; };
+		AFB74297203EDA060010FF08 /* ContuctUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContuctUsVC.swift; sourceTree = "<group>"; };
+		AFD104802045587D00562707 /* SummaryAndClientDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryAndClientDetailsViewModel.swift; sourceTree = "<group>"; };
+		AFD104822045635700562707 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +103,10 @@
 		AF19762B203B16CB00B32ACA /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				AFB74297203EDA060010FF08 /* ContuctUsVC.swift */,
+				AFB74293203EC2AE0010FF08 /* LogInVC.swift */,
 				AF86C8A72035B24C00AF0B47 /* MainScreenVC.swift */,
+				AFD104822045635700562707 /* SettingsVC.swift */,
 				AF19762C203B16ED00B32ACA /* ViewModelsOfMainScreen */,
 			);
 			path = ViewControllers;
@@ -108,6 +121,7 @@
 				AFB7428B203C5D3D0010FF08 /* CurrentPortfolioViewModel.swift */,
 				AFB7428E203C5FF20010FF08 /* RecomendedPortfolioViewModel.swift */,
 				AFB74290203D74710010FF08 /* LineChartViewModel.swift */,
+				AFD104802045587D00562707 /* SummaryAndClientDetailsViewModel.swift */,
 			);
 			path = ViewModelsOfMainScreen;
 			sourceTree = "<group>";
@@ -133,7 +147,8 @@
 		AF86C8A42035B24C00AF0B47 /* CGAAF */ = {
 			isa = PBXGroup;
 			children = (
-				AF86C8AB2035B24C00AF0B47 /* Main.storyboard */,
+				AFB74295203EC5240010FF08 /* MainScreen.storyboard */,
+				AF86C8AB2035B24C00AF0B47 /* LoginScreen.storyboard */,
 				AF197624203B025C00B32ACA /* ConstantsAndDefaultValues.swift */,
 				AF19762B203B16CB00B32ACA /* ViewControllers */,
 				AF19762A203B16C100B32ACA /* Models */,
@@ -206,7 +221,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF86C8AA2035B24C00AF0B47 /* Assets.xcassets in Resources */,
-				AF86C8AD2035B24C00AF0B47 /* Main.storyboard in Resources */,
+				AF86C8AD2035B24C00AF0B47 /* LoginScreen.storyboard in Resources */,
+				AFB74296203ECAB40010FF08 /* MainScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,27 +294,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF197629203B0A5200B32ACA /* CellSummaryViewModel.swift in Sources */,
+				AFB74298203EDA060010FF08 /* ContuctUsVC.swift in Sources */,
 				AF197625203B025C00B32ACA /* ConstantsAndDefaultValues.swift in Sources */,
 				AFB7428F203C5FF20010FF08 /* RecomendedPortfolioViewModel.swift in Sources */,
 				AFB74291203D74710010FF08 /* LineChartViewModel.swift in Sources */,
 				AF197620203AF02600B32ACA /* Models.swift in Sources */,
 				AF197623203AFC0200B32ACA /* MainScreenViewModel.swift in Sources */,
+				AFD104812045587D00562707 /* SummaryAndClientDetailsViewModel.swift in Sources */,
 				AF86C8A82035B24C00AF0B47 /* MainScreenVC.swift in Sources */,
 				AF197627203B097B00B32ACA /* InvestmentsDetailsViewModel.swift in Sources */,
+				AFB74294203EC2AE0010FF08 /* LogInVC.swift in Sources */,
 				AF86C8A62035B24C00AF0B47 /* AppDelegate.swift in Sources */,
 				AFB7428C203C5D3D0010FF08 /* CurrentPortfolioViewModel.swift in Sources */,
+				AFD104832045635700562707 /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AF86C8AB2035B24C00AF0B47 /* Main.storyboard */ = {
+		AF86C8AB2035B24C00AF0B47 /* LoginScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AF86C8AC2035B24C00AF0B47 /* Base */,
 			);
-			name = Main.storyboard;
+			name = LoginScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

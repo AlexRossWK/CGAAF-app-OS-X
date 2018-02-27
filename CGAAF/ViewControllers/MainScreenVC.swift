@@ -16,6 +16,12 @@ class MainScreenVC: NSViewController {
         static let DateCell = "DateCellID"
     }
     @IBOutlet var mainBigView: NSView!
+    @IBOutlet weak var lineChartSegmentControl: NSSegmentedControl!
+    
+    @IBOutlet weak var investmentsDetailsSegmentContr: NSSegmentedControl!
+    
+    @IBOutlet weak var summAndClDetSegm: NSSegmentedControl!
+    @IBOutlet weak var libraryButton: NSButton!
     
     @IBOutlet weak var lineChart: LineChartView!
     @IBOutlet weak var currentPortfolioPieChart: PieChartView!
@@ -53,6 +59,24 @@ extension MainScreenVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //
+        lineChartSegmentControl.setLabel("1m", forSegment: 0)
+        lineChartSegmentControl.setLabel("3m", forSegment: 1)
+        lineChartSegmentControl.setLabel("4m", forSegment: 2)
+        lineChartSegmentControl.setLabel("1y", forSegment: 3)
+        lineChartSegmentControl.setLabel("2y", forSegment: 4)
+        lineChartSegmentControl.setLabel("max", forSegment: 5)
+        //
+        investmentsDetailsSegmentContr.setLabel("INVESTMENT", forSegment: 0)
+        investmentsDetailsSegmentContr.setLabel("INFLOW SUMMARY", forSegment: 1)
+        investmentsDetailsSegmentContr.setLabel("OUTFLOW", forSegment: 2)
+        investmentsDetailsSegmentContr.setWidth(170, forSegment: 1)
+        //
+        summAndClDetSegm.setLabel("SUMMARY", forSegment: 0)
+        summAndClDetSegm.setLabel("CLIENT DETAILS", forSegment: 1)
+        summAndClDetSegm.setWidth(120, forSegment: 1)
+        //
+        
         //Invesments Details tableView
         investmentsDetailsViewModel.setTableViewRowHeight(tableView: investmentsDetailsTableView, height: ConstantsAndDefaultValues.rowDefaultHeight)
         investmentsDetailsViewModel.tableViewSettings(arrayOfColumnModels: investmentsTableViewTESTColumnsArray, tableView: investmentsDetailsTableView)
